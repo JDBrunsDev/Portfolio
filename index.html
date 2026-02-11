@@ -1,0 +1,327 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>José Daniel Bruns — TI • Infra • Automação</title>
+  <meta name="description" content="Portfólio de José Daniel Bruns — TI generalista com foco em infraestrutura, automação com Python, sistemas e operações. Projetos práticos: monitoramento, automação, chamados, dashboards e integrações FHIR/HL7." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <div id="top" aria-hidden="true"></div>
+  <div class="ambient" aria-hidden="true"></div>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container header__inner">
+      <a class="brand" href="#top" aria-label="Voltar ao topo">
+        <span class="brand__dot" aria-hidden="true"></span>
+        <span class="brand__name">Meu Portfólio</span>
+      </a>
+
+      <nav class="nav" aria-label="Navegação principal">
+        <a class="nav__link" href="#sobre" data-section="sobre">Sobre</a>
+        <a class="nav__link" href="#projetos" data-section="projetos">Projetos</a>
+        <a class="nav__link" href="#stack" data-section="stack">Stack</a>
+        <a class="nav__link" href="#contato" data-section="contato">Contato</a>
+      </nav>
+
+      <button class="menuBtn" id="menuBtn" aria-label="Abrir menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <div class="mobileNav" id="mobileNav" aria-hidden="true">
+      <a href="#sobre" class="mobileNav__link" data-section="sobre">Sobre</a>
+      <a href="#projetos" class="mobileNav__link" data-section="projetos">Projetos</a>
+      <a href="#stack" class="mobileNav__link" data-section="stack">Stack</a>
+      <a href="#contato" class="mobileNav__link" data-section="contato">Contato</a>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- Hero -->
+    <section class="hero" aria-label="Apresentação">
+      <video class="hero__video" autoplay muted playsinline preload="metadata" poster="assets/hero-poster.jpg">
+        <source src="assets/hero.mp4" type="video/mp4" />
+        Seu navegador não suporta vídeo em HTML5.
+      </video>
+
+      <div class="hero__overlay" aria-hidden="true"></div>
+
+      <div class="container hero__content">
+        <div class="hero__badge">
+          <span class="pulse" aria-hidden="true"></span>
+          <span>TI • Infraestrutura • Automação</span>
+        </div>
+
+        <div class="hero__profile" aria-label="Foto de José Daniel Bruns">
+          <img
+            class="hero__profileImg"
+            src="assets/perfil.jpeg"
+            alt="Foto de José Daniel Bruns"
+            loading="eager"
+            decoding="async"
+          />
+        </div>
+
+        <h1 class="hero__title">
+          José Daniel Bruns
+          <span class="hero__titleLine">TI • Infraestrutura • Automação com Python • Sistemas • Operações</span>
+        </h1>
+
+        <p class="hero__subtitle">
+          TI na prática: organização de ambientes, automação de rotinas, suporte a operações e soluções que deixam o dia a dia mais estável e confiável.
+        </p>
+
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="#projetos">Ver Projetos</a>
+          <a class="btn btn--ghost" href="#contato">Contato</a>
+        </div>
+
+        <div class="hero__scrollHint" aria-hidden="true">
+          <span class="mouse"></span>
+          <span class="scrollText">Role</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sobre -->
+    <section id="sobre" class="section reveal">
+      <div class="container">
+        <div class="section__head">
+          <h2>Sobre</h2>
+          <p>TI generalista, com foco em prática, consistência e projetos reais.</p>
+        </div>
+
+        <div class="grid grid--2">
+          <div class="card">
+            <h3>Em resumo</h3>
+            <p class="muted">
+              Atuo na área de <strong>TI</strong> com foco em <strong>infraestrutura</strong>, <strong>automação com Python</strong>,
+              <strong>sistemas</strong> e <strong>operações</strong>. Gosto de pegar problemas do dia a dia e transformar em solução prática:
+              padronizar processos, reduzir retrabalho e aumentar confiabilidade.
+            </p>
+          </div>
+
+          <div class="card">
+            <h3>Foco atual</h3>
+            <p class="muted">
+              Menos teoria solta e mais execução: automações, monitoramento, organização de ambiente e integração entre sistemas quando faz sentido.
+            </p>
+
+            <div class="chips" aria-label="Foco">
+              <span class="chip">Infra</span>
+              <span class="chip">Automação</span>
+              <span class="chip">Python</span>
+              <span class="chip">Linux</span>
+              <span class="chip">Monitoramento</span>
+              <span class="chip">APIs</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projetos -->
+    <section id="projetos" class="section reveal">
+      <div class="container">
+        <div class="section__head">
+          <h2>Projetos</h2>
+          <p>Projetos práticos focados em infraestrutura, automação e operações.</p>
+        </div>
+
+        <div class="grid grid--3">
+          <article class="card project">
+            <div class="project__thumb project__thumb--gradient" aria-hidden="true"></div>
+            <h3>Monitoramento de Sistemas</h3>
+            <p class="muted">Coleta de informações, alertas simples e visão rápida da saúde de serviços e máquinas.</p>
+            <div class="project__meta">
+              <span class="tag">Python</span>
+              <span class="tag">Linux</span>
+              <span class="tag">Monitoramento</span>
+            </div>
+            <div class="project__actions">
+              <a class="link" href="#" aria-disabled="true">GitHub</a>
+              <a class="link" href="#" aria-disabled="true">Demo</a>
+            </div>
+          </article>
+
+          <article class="card project">
+            <div class="project__thumb project__thumb--gradient" aria-hidden="true"></div>
+            <h3>Automação de Processos</h3>
+            <p class="muted">Scripts para rotinas repetitivas: logs, inventário, limpeza, relatórios e integração com APIs.</p>
+            <div class="project__meta">
+              <span class="tag">Python</span>
+              <span class="tag">Bash</span>
+              <span class="tag">Automação</span>
+            </div>
+            <div class="project__actions">
+              <a class="link" href="#" aria-disabled="true">GitHub</a>
+              <a class="link" href="#" aria-disabled="true">Demo</a>
+            </div>
+          </article>
+
+          <article class="card project">
+            <div class="project__thumb project__thumb--gradient" aria-hidden="true"></div>
+            <h3>Sistema de Chamados (simples)</h3>
+            <p class="muted">Registro e organização de demandas internas, com status e histórico básico.</p>
+            <div class="project__meta">
+              <span class="tag">Python</span>
+              <span class="tag">FastAPI</span>
+              <span class="tag">JSON</span>
+            </div>
+            <div class="project__actions">
+              <a class="link" href="#" aria-disabled="true">GitHub</a>
+              <a class="link" href="#" aria-disabled="true">Demo</a>
+            </div>
+          </article>
+
+          <article class="card project">
+            <div class="project__thumb project__thumb--gradient" aria-hidden="true"></div>
+            <h3>Dashboard de TI</h3>
+            <p class="muted">Painel com indicadores (inventário, disponibilidade, tickets e rotinas) para tomada de decisão.</p>
+            <div class="project__meta">
+              <span class="tag">Dashboards</span>
+              <span class="tag">Operações</span>
+              <span class="tag">BI</span>
+            </div>
+            <div class="project__actions">
+              <a class="link" href="#" aria-disabled="true">GitHub</a>
+              <a class="link" href="#" aria-disabled="true">Demo</a>
+            </div>
+          </article>
+
+          <article class="card project">
+            <div class="project__thumb project__thumb--gradient" aria-hidden="true"></div>
+            <h3>Integração FHIR/HL7 (em evolução)</h3>
+            <p class="muted">Estudos práticos de troca de dados entre sistemas, com APIs e transformação de payloads.</p>
+            <div class="project__meta">
+              <span class="tag">FHIR</span>
+              <span class="tag">HL7</span>
+              <span class="tag">APIs</span>
+            </div>
+            <div class="project__actions">
+              <a class="link" href="#" aria-disabled="true">GitHub</a>
+              <a class="link" href="#" aria-disabled="true">Demo</a>
+            </div>
+          </article>
+
+          <article class="card project">
+            <div class="project__thumb project__thumb--gradient" aria-hidden="true"></div>
+            <h3>Ambiente Padronizado</h3>
+            <p class="muted">Containers e padrões para rodar serviços com previsibilidade e menos “depende”.</p>
+            <div class="project__meta">
+              <span class="tag">Docker</span>
+              <span class="tag">Compose</span>
+              <span class="tag">Sistemas</span>
+            </div>
+            <div class="project__actions">
+              <a class="link" href="#" aria-disabled="true">GitHub</a>
+              <a class="link" href="#" aria-disabled="true">Demo</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Stack -->
+    <section id="stack" class="section reveal">
+      <div class="container">
+        <div class="section__head">
+          <h2>Stack</h2>
+          <p>O que eu uso e venho aprofundando no dia a dia.</p>
+        </div>
+
+        <div class="grid grid--2">
+          <div class="card">
+            <h3>Infra & Automação</h3>
+            <ul class="list">
+              <li><strong>Linux</strong> • rotinas, serviços e troubleshooting</li>
+              <li><strong>Redes</strong> • base de conectividade e diagnóstico</li>
+              <li><strong>Python</strong> • automação e scripts</li>
+              <li><strong>Bash</strong> • utilitários e rotinas rápidas</li>
+              <li><strong>Git</strong> • versionamento</li>
+              <li><strong>YAML</strong> e <strong>JSON</strong> • configs e dados</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>Sistemas & Integrações</h3>
+            <ul class="list">
+              <li><strong>APIs</strong> • integrações e automações</li>
+              <li><strong>Monitoramento</strong> • visibilidade e estabilidade</li>
+              <li><strong>Dashboards</strong> • indicadores para operações</li>
+              <li><strong>FHIR/HL7</strong> • estudos e práticas de integração</li>
+              <li><strong>Docker</strong> • ambientes padronizados</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato" class="section reveal">
+      <div class="container">
+        <div class="section__head">
+          <h2>Contato</h2>
+          <p>Redes e canais para falar comigo.</p>
+        </div>
+
+        <div class="card">
+          <div class="socials">
+            <!-- Mantidos como você enviou: os href são preenchidos pelo app.js -->
+            <a id="link-github" class="social social--github" href="#" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M12 .5C5.65.5.5 5.65.5 12c0 5.1 3.29 9.43 7.86 10.96.57.1.78-.25.78-.55v-1.93c-3.2.7-3.88-1.38-3.88-1.38-.52-1.32-1.27-1.67-1.27-1.67-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.02 1.75 2.68 1.24 3.33.95.1-.74.4-1.24.73-1.52-2.56-.29-5.25-1.28-5.25-5.7 0-1.26.45-2.3 1.18-3.11-.12-.29-.51-1.47.11-3.06 0 0 .97-.31 3.18 1.19a11.1 11.1 0 015.8 0c2.2-1.5 3.18-1.19 3.18-1.19.62 1.59.23 2.77.11 3.06.74.81 1.18 1.85 1.18 3.11 0 4.43-2.7 5.4-5.27 5.69.41.35.78 1.04.78 2.1v3.11c0 .31.21.66.79.55A11.51 11.51 0 0023.5 12C23.5 5.65 18.35.5 12 .5z"/>
+              </svg>
+              <span>GitHub</span>
+            </a>
+
+            <a id="link-linkedin" class="social social--linkedin" href="#" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M4.98 3.5C3.33 3.5 2 4.84 2 6.48c0 1.64 1.33 2.98 2.98 2.98A2.98 2.98 0 008 6.48C8 4.84 6.67 3.5 4.98 3.5zM2.4 21.5h5.16V9H2.4v12.5zM9.5 9h4.94v1.7h.07c.69-1.3 2.37-2.67 4.88-2.67 5.22 0 6.19 3.43 6.19 7.9v5.57h-5.16v-4.94c0-1.18-.02-2.7-1.65-2.7-1.66 0-1.92 1.3-1.92 2.62v5.02H9.5V9z"/>
+              </svg>
+              <span>LinkedIn</span>
+            </a>
+
+            <a id="link-instagram" class="social social--instagram" href="#" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M7 2C4.24 2 2 4.24 2 7v10c0 2.76 2.24 5 5 5h10c2.76 0 5-2.24 5-5V7c0-2.76-2.24-5-5-5H7zm10 2a3 3 0 013 3v10a3 3 0 01-3 3H7a3 3 0 01-3-3V7a3 3 0 013-3h10zm-5 3.5a5.5 5.5 0 100 11 5.5 5.5 0 000-11zm0 2a3.5 3.5 0 110 7 3.5 3.5 0 010-7zm4.75-.75a1 1 0 110 2 1 1 0 0 1 0-2z"/>
+              </svg>
+              <span>Instagram</span>
+            </a>
+
+            <a id="link-youtube" class="social social--youtube" href="#" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M23.5 6.5s-.23-1.63-.94-2.34c-.9-.94-1.91-.95-2.37-1C16.85 2.9 12 2.9 12 2.9h-.01s-4.85 0-8.19.26c-.46.05-1.47.06-2.37 1-.71.71-.94 2.34-.94 2.34S0 8.41 0 10.32v1.36c0 1.91.23 3.82.23 3.82s.23 1.63.94 2.34c.9.94 2.08.91 2.6 1.01 1.89.18 8.23.24 8.23.24s4.85-.01 8.19-.26c.46-.05 1.47-.06 2.37-1 .71-.71.94-2.34.94-2.34s.23-1.91.23-3.82v-1.36c0-1.91-.23-3.82-.23-3.82zM9.75 14.85V7.9l6.25 3.48-6.25 3.47z"/>
+              </svg>
+              <span>YouTube</span>
+            </a>
+
+            <a id="link-whatsapp" class="social social--whatsapp" href="#" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M20.52 3.48A11.9 11.9 0 0012.04 0C5.42 0 .04 5.38.04 12c0 2.12.55 4.19 1.6 6.02L0 24l6.18-1.62A11.95 11.95 0 0012.04 24c6.62 0 12-5.38 12-12 0-3.2-1.25-6.2-3.52-8.52z"/>
+              </svg>
+              <span>WhatsApp</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container footer__inner">
+        <span class="muted small">© <span id="year"></span> — José Daniel Bruns • TI • Infra • Automação • Sistemas • Operações</span>
+        <a class="muted small" href="#top">Voltar ao topo ↑</a>
+      </div>
+    </footer>
+
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
