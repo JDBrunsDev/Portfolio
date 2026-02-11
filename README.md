@@ -17,7 +17,7 @@ Este portfólio foi criado para reunir minha evolução prática em TI, mostrand
 
 ## 🚀 Acesse o Portfólio
 
-🔗 **https://jdbrunsdev.github.io/portfolio/**
+🔗 **https://jdbrunsdev.github.io/Portfolio/**
 
 ---
 
