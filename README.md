@@ -50,4 +50,10 @@ Meu objetivo é construir uma base sólida e prática para ingressar em equipes 
 ---
 
 ## 📁 Estrutura do Projeto
-
+📦 portfolio
+├── index.html
+├── styles.css
+├── app.js
+└── assets/
+├── hero.mp4
+└── perfil.jpeg
